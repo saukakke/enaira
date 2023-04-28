@@ -1,0 +1,236 @@
+* {
+    font-size: medium;
+  }
+  .sup{
+      color: red;
+      font-weight: bold;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+  .wrapper {
+    background-color: whitesmoke;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .form-control {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .submit {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0 10px;
+  }
+  h3 {
+    color: navy;
+  }
+  .link {
+    text-align: right;
+  }
+  .line {
+    color: black;
+    width: 48%;
+  }
+  .row {
+    margin-bottom: 1rem;
+  }
+  .links ul {
+    padding-top: 1rem;
+  }
+  .links ul a {
+    color: white;
+    width: 200px;
+  }
+  .links ul li {
+    padding: 10px;
+    list-style-type: none;
+    width: 180px;
+    font-size: medium;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .links ul a:hover li,
+  #active {
+    background-color: white;
+    color: navy;
+    text-decoration: none;
+  }
+  a h1 i {
+    color: navy;
+  }
+  .links ul a:hover li.active {
+    background-color: #d82222;
+    color: white;
+    text-decoration: none;
+  }
+  .body {
+    display: flex;
+  }
+  .div1 {
+    flex: 1;
+  }
+  .div2 {
+    flex: 4;
+  }
+  .links ul:last-child {
+    padding-bottom: 1rem;
+  }
+  h1, h3 {
+    text-align: center;
+  }
+  .links {
+    width: 220px;
+  }
+  .header {
+    color: navy;
+    text-align: center;
+    margin-left: 20px;
+  }
+  #progress {
+    color: green;
+    height: 50px;
+    width: 800px;
+  }
+  .header_line {
+    color: green;
+    width: 94%;
+    margin-left: 50px;
+    height: 2px;
+  }
+  #form {
+    width: auto;
+    padding: 10px;
+    font-size: medium;
+  }
+  a:hover .bg-danger:hover {
+    text-decoration: none;
+    color: white;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="radio"],
+  input[type="file"] {
+    font-size: medium;
+  }
+  .btnApply {
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px 10px;
+  }
+  .btnApplyDiv {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+  }
+  #login {
+    margin-left: 1rem;
+  }
+  .alert .alert-danger {
+    text-align: center;
+  }
+  #submit {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .viewbody {
+    margin: 10px;
+  }
+  .submit {
+    text-align: center;
+  }
+  #submit1 {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+  }
+  progress {
+    animation-name: progress;
+  }
+  @keyframes progress {
+    0% {
+      background-color: green;
+    }
+    25% {
+      background-color: #4c0;
+    }
+    50% {
+      background-color: #880;
+    }
+    75% {
+      background-color: #c50;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+  #cancel{
+      text-align: center;
+  }
+  #btnCancel, #back{
+      border-radius: 10px;
+      padding: 10px;
+      border: none;
+      color: whitesmoke;
+      font-weight: 600;
+  }
+  * {
+    font-size: medium;
+  }
+  input[type=text],
+  input[type=password],
+  input[type=email],
+  input[type=number],
+  input[type=phone],
+  .btnDiv button, button, a.btn {
+    font-size: medium;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .forget a {
+    text-decoration: none;
+  }
+  .forget {
+    text-align: right;
+  }
+  .btnDiv {
+    text-align: center;
+  }
+  .footer, button{
+    background-color: navy;
+  }
+  
+  a.btn.footer:hover{
+    color: white;
+  }
+  .buttom{
+    background-color: cyan;
+    color: whitesmoke;
+  }
+  .links li {
+    list-style-type: none;
+  }
+  .links li a {
+    text-decoration: none;
+  }
+  button.btn{
+    font-size: medium;
+  }
+  #anchor{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+  }

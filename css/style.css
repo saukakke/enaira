@@ -1,0 +1,44 @@
+* {
+    font-size: medium;
+}
+
+h1,
+h3,
+div.image,
+.btnDiv {
+    text-align: center;
+}
+
+.btnDiv>a {
+    border: 1px, #dddddd;
+    background-color: #dddddd;
+    margin-top: 3%;
+}
+
+.btnDiv>button {
+    margin-top: 3%;
+}
+
+.btnDiv>button,
+.btnDiv>a,
+textarea {
+    width: 100%;
+}
+
+input[type=password],
+input[type=text],
+input[type=date],
+input[type=file],
+input[type=email],
+input[type=number],
+textarea,
+.form-group>select,
+.btnDiv>button,
+div.forget > a,
+.btnDiv>a {
+    font-size: medium;
+}
+
+div.forget {
+    text-align: right;
+}

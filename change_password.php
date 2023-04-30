@@ -34,22 +34,22 @@
                 id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="index.php">
                             <i class="fa fa-home"></i> Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">
+                        <a class="nav-link" href="about.php">
                             <i class="fa fa-user"></i> About Us
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
+                        <a class="nav-link" href="contact.php">
                             <i class="fa fa-phone"></i> Contact Us
                         </a>
                     </li>
                     <li class="active nav-item">
-                        <a class="nav-link" href="login.html">
+                        <a class="nav-link" href="login.php">
                             <i class="fa fa-sign-in"></i> Login
                         </a>
                     </li>
@@ -58,9 +58,9 @@
         </nav>
         <main class="container">
             <h1 class="h1">Welcome Back</h1>
-            <h3 class="h3">Secure Login to the FNA eNaira Onboarding App</h3>
+            <h3 class="h3">Secure Login to the Arewa Prime Limited eNaira Onboarding App</h3>
             <div class="image">
-                <img src="images/logo.jpeg" class="image-responsive" alt="E-Naira Logo" width="30%" height="30%">
+                <img src="images/logo.png" class="image-responsive" alt="E-Naira Logo" width="30%" height="30%">
             </div>
             <form action="#" class="form" id="loginForm">
                 <div class="form-group">
@@ -77,15 +77,16 @@
                 </div>
 
                 <div class="form-group">
-                    <div class="btnDiv">
-                        <button class="btn btn-success">Sign Up</button>
-                    </div>
+                    <label for="c_password" class="form-label">Confirm Password:</label>
+                    <input type="password" required class="form-control
+                        input-medium" placeholder="Password" name="c_password">
                 </div>
 
                 <div class="form-group">
                     <div class="btnDiv">
-                        <a href="login.html" class="btn btn-default">Sign In</a>
+                        <button class="btn btn-success">Change Password</button>
                     </div>
                 </div>
             </form>
-            <?php include_once 'footer.html' ?>
+            
+            <?php include_once 'footer.php' ?>

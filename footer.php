@@ -1,8 +1,8 @@
     </main>
-    <div class="footer bg-success">
-        <footer>
+    <div class="footer mt-2 bg-success">
+        <center style="text-align: center; font-size: medium; color: white;">
             &copy; 2023 E-Naira
-        </footer>
+        </center>
     </div>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>

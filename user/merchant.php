@@ -34,22 +34,22 @@
                 id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="dashboard.html">
+                        <a class="nav-link" href="dashboard.php">
                             <i class="fa fa-home"></i> Dashboard
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">
+                        <a class="nav-link" href="profile.php">
                             <i class="fa fa-user"></i> Profile
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
+                        <a class="nav-link" href="contact.php">
                             <i class="fa fa-phone"></i> About Us
                         </a>
                     </li>
                     <li class="active nav-item">
-                        <a class="nav-link" href="login.html">
+                        <a class="nav-link" href="login.php">
                             <i class="fa fa-sign-in"></i> Logout
                         </a>
                     </li>
@@ -57,7 +57,7 @@
             </div>
         </nav>
         <main class="container">
-            <h1 class="h1">Bronze</h1>
+            <h1 class="h1">Merchant Plan</h1>
             <form action="#" class="form" id="loginForm">
                 <div class="form-group">
                     <label for="firstname" class="form-label">Choose Title:</label>
@@ -68,9 +68,10 @@
                         <option value="Chief">Chief</option>
                         <option value="Doctor">Doctor</option>
                         <option value="Miss">Miss</option>
-                        <option value="">Choose Title</option>
                         <option value="Mr">Mr</option>
                         <option value="Mrs">Mrs</option>
+                        <option value="Mal">Mal</option>
+                        <option value="Prof">Prof</option>
                     </select>
                 </div>
 
@@ -105,6 +106,24 @@
                     <label for="phone" class="form-label">Phone Number:</label>
                     <input type="number" required class="form-control
                         input-medium" maxlength="11" minlength="11" placeholder="Phone Number" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="nin" class="form-label">National Identification Number (NIN):</label>
+                    <input type="number" required class="form-control
+                        input-medium" maxlength="11" minlength="11" placeholder="National Identification Number (NIN)" name="nin">
+                </div>
+
+                <div class="form-group">
+                    <label for="account_number" class="form-label">Account Number:</label>
+                    <input type="number" required class="form-control
+                        input-medium" maxlength="11" minlength="11" placeholder="Account Number" name="account_number">
+                </div>
+
+                <div class="form-group">
+                    <label for="bvn" class="form-label">Bank Verification Number (BVN):</label>
+                    <input type="number" required class="form-control
+                        input-medium" maxlength="11" minlength="11" placeholder="Bank Verification Number (BVN)" name="bvn">
                 </div>
 
                 <div class="form-group">
@@ -144,8 +163,8 @@
 
                 <div class="form-group">
                     <div class="btnDiv">
-                        <button class="btn btn-success">Continue</button>
+                        <button class="btn btn-success">Register</button>
                     </div>
                 </div>
             </form>
-            <?php include_once 'footer.html' ?>
+            <?php include_once 'footer.php' ?>

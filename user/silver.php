@@ -34,22 +34,22 @@
                 id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="dashboard.html">
+                        <a class="nav-link" href="dashboard.php">
                             <i class="fa fa-home"></i> Dashboard
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">
+                        <a class="nav-link" href="profile.php">
                             <i class="fa fa-user"></i> Profile
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
+                        <a class="nav-link" href="contact.php">
                             <i class="fa fa-phone"></i> About Us
                         </a>
                     </li>
                     <li class="active nav-item">
-                        <a class="nav-link" href="login.html">
+                        <a class="nav-link" href="login.php">
                             <i class="fa fa-sign-in"></i> Logout
                         </a>
                     </li>
@@ -154,4 +154,4 @@
                     </div>
                 </div>
             </form>
-            <?php include_once 'footer.html' ?>
+            <?php include_once 'footer.php' ?>

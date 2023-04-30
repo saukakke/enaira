@@ -34,22 +34,22 @@
                 id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="index.php">
                             <i class="fa fa-home"></i> Dashboard
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">
+                    <li class="active nav-item">
+                        <a class="nav-link" href="profile.php">
                             <i class="fa fa-user"></i> Profile
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
+                        <a class="nav-link" href="contact.php">
                             <i class="fa fa-phone"></i> About Us
                         </a>
                     </li>
-                    <li class="active nav-item">
-                        <a class="nav-link" href="login.html">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php">
                             <i class="fa fa-sign-in"></i> Logout
                         </a>
                     </li>
@@ -57,9 +57,9 @@
             </div>
         </nav>
         <main class="container">
-            <h1 class="h1">Welcome Back</h1>
+            <h1 class="h1">Profile</h1>
             <div class="row">
-                <i class="fa fa-envelope fa-4x"></i>
+                <i class="fa fa-envelope" style="font-size: larger;"></i>
                 <div class="form-group">
                     <label for="">Email</label>
                     <p><a href="mailto:saukakke@gmail.com">saukakke@gmail.com</a></p>
@@ -67,7 +67,7 @@
             </div>
 
             <div class="row">
-                <i class="fa fa-home fa-4x"></i>
+                <i class="fa fa-home" style="font-size: larger;"></i>
                 <div class="form-group">
                     <label for="">Address</label>
                     <address>Hayin Dogo, Samaru, Zaria</address>
@@ -75,7 +75,7 @@
             </div>
 
             <div class="row">
-                <i class="fa fa-phone fa-4x"></i>
+                <i class="fa fa-phone" style="font-size: larger;"></i>
                 <div class="form-group">
                     <label for="">Phone Number</label>
                     <p><a href="tel:+2348130144920">08130144920</a></p>

@@ -44,7 +44,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">
+                        <a class="nav-link" href="profile.html">
                             <i class="fa fa-user"></i> Profile
                         </a>
                     </li>

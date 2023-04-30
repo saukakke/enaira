@@ -20,12 +20,12 @@
             src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-        <title>Arewa Premier Ltd</title>
+        <title>Elkanawi Schools</title>
     </head>
 
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-            <img src="../images/logo.png" class="image mr-auto image-responsive" alt="Arewa Premier Ltd" height="5%" width="5%">
+            <img src="images/logo.png" class="image mr-auto image-responsive" alt="Elkanawi Schools" height="5%" width="5%">
             <button class="navbar-toggler ml-auto" type="button"
                 data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">
+                        <a class="nav-link" href="profile.html">
                             <i class="fa fa-user"></i> Profile
                         </a>
                     </li>
@@ -57,7 +57,8 @@
             </div>
         </nav>
         <main class="container">
-            <h1 class="h1">Gold Plan</h1>
+            <h1 class="h1">Welcome Back</h1>
+            <h3 class="h3">Secure Login to the Arewa Premier Ltd eNaira Onboarding App</h3>
             <form action="#" class="form" id="loginForm">
                 <div class="form-group">
                     <label for="firstname" class="form-label">Choose Title:</label>
@@ -68,10 +69,9 @@
                         <option value="Chief">Chief</option>
                         <option value="Doctor">Doctor</option>
                         <option value="Miss">Miss</option>
+                        <option value="">Choose Title</option>
                         <option value="Mr">Mr</option>
                         <option value="Mrs">Mrs</option>
-                        <option value="Mal">Mal</option>
-                        <option value="Prof">Prof</option>
                     </select>
                 </div>
 
@@ -97,37 +97,13 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="dateofbirth" class="form-label">Date of Birth:</label>
-                    <input type="date" required class="form-control
-                        input-medium" placeholder="Date of Birth" name="dateofbirth">
-                </div>
-
-                <div class="form-group">
                     <label for="phone" class="form-label">Phone Number:</label>
                     <input type="number" required class="form-control
                         input-medium" maxlength="11" minlength="11" placeholder="Phone Number" name="phone">
                 </div>
 
                 <div class="form-group">
-                    <label for="nin" class="form-label">National Identification Number (NIN):</label>
-                    <input type="number" required class="form-control
-                        input-medium" maxlength="11" minlength="11" placeholder="National Identification Number (NIN)" name="nin">
-                </div>
-
-                <div class="form-group">
-                    <label for="account_number" class="form-label">Account Number:</label>
-                    <input type="number" required class="form-control
-                        input-medium" maxlength="11" minlength="11" placeholder="Account Number" name="account_number">
-                </div>
-
-                <div class="form-group">
-                    <label for="bvn" class="form-label">Bank Verification Number (BVN):</label>
-                    <input type="number" required class="form-control
-                        input-medium" maxlength="11" minlength="11" placeholder="Bank Verification Number (BVN)" name="bvn">
-                </div>
-
-                <div class="form-group">
-                    <label for="state" class="form-label">State of Origin:</label>
+                    <label for="firstname" class="form-label">State of Origin:</label>
                     <select name="state" id="select" required class="form-control
                     input-medium"
                     placeholder="State of Origin">
@@ -142,7 +118,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="lga" class="form-label">Local Government Area:</label>
+                    <label for="firstname" class="form-label">Local Government Area:</label>
                     <select name="lga" id="select" required class="form-control
                     input-medium"
                     placeholder="Local Government Area">
@@ -157,13 +133,49 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="wallet" class="form-label">Contact Address:</label>
-                    <textarea name="address" cols="5" rows="5" style="font-size: medium" placeholder="Contact Address"></textarea>
+                    <label for="nin" class="form-label">NIN:</label>
+                    <input type="text" required class="form-control
+                        input-medium" placeholder="NIN" name="nin">
                 </div>
 
                 <div class="form-group">
+                    <label for="wallet" class="form-label">Wallet @alias:</label>
+                    <input type="text" required class="form-control
+                        input-medium" placeholder="Wallet @alias" name="wallet">
+                </div>
+
+                <div class="form-group">
+                    <label for="wallet" class="form-label">Address:</label>
+                    <textarea name="address" cols="5" rows="5" placeholder="Address"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="organization" class="form-label">Select Organization:</label>
+                    <select name="organization" id="select" required class="form-control
+                    input-medium"
+                    placeholder="Select Organization">
+                        <option value="">Select Organization</option>
+                        <option value="Chief">Chief</option>
+                        <option value="Ben Grace Agro Ltd">Ben Grace Agro Ltd</option>
+                        <option value="AMCIN">AMCIN</option>
+                        <option value="SUS Consultancy Services Ltd">SUS Consultancy Services Ltd</option>
+                        <option value="Binda International Farms">Binda International Farms</option>
+                        <option value="Wakili Communication Share Agent Network Limited">Wakili Communication Share Agent Network Limited</option>
+                        <option value="Powerline Technology Ltd">Powerline Technology Ltd</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="photo" class="form-label">Photo:</label>
+                    <input type="file" required class="form-control
+                        input-medium" placeholder="Photo" name="photo">
+                </div>
+
+                <img src="images/a.jpg" class="image-responsive" alt="Photo" width="50px" height="50px">
+
+                <div class="form-group">
                     <div class="btnDiv">
-                        <button class="btn btn-success">Register</button>
+                        <button class="btn btn-success">Continue</button>
                     </div>
                 </div>
             </form>

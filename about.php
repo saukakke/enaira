@@ -39,7 +39,7 @@
                 id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="index.php">
                             <i class="fa fa-home"></i> Home
                         </a>
                     </li>

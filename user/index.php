@@ -25,7 +25,7 @@
 
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-            <img src="images/logo.png" class="image mr-auto image-responsive" alt="Elkanawi Schools" height="5%" width="5%">
+            <img src="../images/logo.png" class="image mr-auto image-responsive" alt="Elkanawi Schools" height="5%" width="5%">
             <button class="navbar-toggler ml-auto" type="button"
                 data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -34,22 +34,22 @@
                 id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="dashboard.html">
+                        <a class="nav-link" href="dashboard.php">
                             <i class="fa fa-home"></i> Dashboard
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="profile.html">
+                        <a class="nav-link" href="profile.php">
                             <i class="fa fa-user"></i> Profile
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
+                        <a class="nav-link" href="contact.php">
                             <i class="fa fa-phone"></i> About Us
                         </a>
                     </li>
                     <li class="active nav-item">
-                        <a class="nav-link" href="login.html">
+                        <a class="nav-link" href="login.php">
                             <i class="fa fa-sign-in"></i> Logout
                         </a>
                     </li>
@@ -133,9 +133,9 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="nin" class="form-label">NIN:</label>
+                    <label for="nin" class="form-label">National Iddentification Number (NIN):</label>
                     <input type="text" required class="form-control
-                        input-medium" placeholder="NIN" name="nin">
+                        input-medium" placeholder="National Iddentification Number (NIN)" name="nin">
                 </div>
 
                 <div class="form-group">
@@ -171,7 +171,7 @@
                         input-medium" placeholder="Photo" name="photo">
                 </div>
 
-                <img src="images/a.jpg" class="image-responsive" alt="Photo" width="50px" height="50px">
+                <img src="../images/logo.png" class="image-responsive" alt="Photo" width="10%" height="10%">
 
                 <div class="form-group">
                     <div class="btnDiv">
@@ -179,4 +179,4 @@
                     </div>
                 </div>
             </form>
-            <?php include_once 'footer.html' ?>
+            <?php include_once '../footer.php' ?>

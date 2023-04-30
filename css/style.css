@@ -1,5 +1,39 @@
 * {
     font-size: medium;
+    position: relative;
+}
+
+.bronzeDiv,
+.silverDiv,
+.goldDiv,
+.merchantDiv {
+    max-width: 300px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.collapsed {
+    max-height: 50px;
+}
+
+.bronze,
+.silver,
+.gold,
+.merchant {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 3px;
+    border: 1px solid dodgerblue;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.bronze:hover,
+.silver:hover,
+.gold:hover,
+.merchant:hover {
+    border: 1px solid green;
 }
 
 h1,
@@ -34,7 +68,7 @@ input[type=number],
 textarea,
 .form-group>select,
 .btnDiv>button,
-div.forget > a,
+div.forget>a,
 .btnDiv>a {
     font-size: medium;
 }

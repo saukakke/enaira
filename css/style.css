@@ -76,3 +76,7 @@ div.forget>a,
 div.forget {
     text-align: right;
 }
+
+div.forget > a:hover {
+    color: green;
+}

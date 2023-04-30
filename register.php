@@ -58,9 +58,9 @@
         </nav>
         <main class="container">
             <h1 class="h1">Welcome Back</h1>
-            <h3 class="h3">Secure Login to the FNA eNaira Onboarding App</h3>
+            <h3 class="h3">Secured Registration to the Arewa Premier Ltd eNaira Onboarding App</h3>
             <div class="image">
-                <img src="images/logo.jpeg" class="image-responsive" alt="E-Naira Logo" width="30%" height="30%">
+                <img src="images/logo.png" class="image-responsive" alt="E-Naira Logo" width="30%" height="30%">
             </div>
             <form action="#" class="form" id="loginForm">
                 <div class="form-group">
@@ -74,6 +74,12 @@
                     <label for="password" class="form-label">Password:</label>
                     <input type="password" required class="form-control
                         input-medium" placeholder="Password" name="password">
+                </div>
+
+                <div class="form-group">
+                    <label for="c_password" class="form-label">Confirm Password:</label>
+                    <input type="password" required class="form-control
+                        input-medium" placeholder="Confirm Password" name="c_password">
                 </div>
 
                 <div class="form-group">

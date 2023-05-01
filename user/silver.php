@@ -114,6 +114,12 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="password" class="form-label">Password:</label>
+                    <input type="password" required class="form-control
+                        input-medium" placeholder="Password" name="password">
+                </div>
+
+                <div class="form-group">
                     <label for="state" class="form-label">State of Origin:</label>
                     <select name="state" id="select" required class="form-control
                     input-medium"
@@ -154,4 +160,4 @@
                     </div>
                 </div>
             </form>
-            <?php include_once '../footer.php' ?>
+            <?php include_once 'footer.php' ?>

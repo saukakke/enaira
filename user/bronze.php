@@ -108,6 +108,21 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="country_origin" class="form-label">Country of Origin:</label>
+                    <select name="country_origin" id="select" required class="form-control
+                    input-medium"
+                    placeholder="Country of Origin">
+                        <option value="">Country of Origin</option>
+                        <option value="Chief">Chief</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Miss">Miss</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Prof">Proffessor</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
                     <label for="state" class="form-label">State of Origin:</label>
                     <select name="state" id="select" required class="form-control
                     input-medium"
@@ -138,8 +153,44 @@
                 </div>
 
                 <div class="form-group">
+                    <label for="c_residence" class="form-label">Country of Residence:</label>
+                    <select name="c_residence" id="select" required class="form-control
+                    input-medium"
+                    placeholder="Country of Residence">
+                        <option value="">Country of Residence</option>
+                        <option value="Chief">Chief</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Miss">Miss</option>
+                        <option value="">Choose Title</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="c_state" class="form-label">State of Residence:</label>
+                    <select name="c_state" id="select" required class="form-control
+                    input-medium"
+                    placeholder="State of Residence">
+                        <option value="">State of Residence</option>
+                        <option value="Chief">Chief</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Miss">Miss</option>
+                        <option value="">Choose Title</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
                     <label for="wallet" class="form-label">Contact Address:</label>
                     <textarea name="address" cols="5" rows="5" style="font-size: medium" placeholder="Contact Address"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label">Password:</label>
+                    <input type="password" required class="form-control
+                        input-medium" placeholder="Password" name="password">
                 </div>
 
                 <div class="form-group">
@@ -148,4 +199,4 @@
                     </div>
                 </div>
             </form>
-            <?php include_once '../footer.php' ?>
+            <?php include_once 'footer.php' ?>

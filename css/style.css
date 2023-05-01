@@ -3,13 +3,13 @@
     position: relative;
 }
 
-.bronzeDiv,
-.silverDiv,
-.goldDiv,
-.merchantDiv {
-    max-width: 300px;
-    margin-bottom: 20px;
-    overflow: hidden;
+p.p {
+    font-size: medium;
+    min-width: 100%;
+}
+
+div.card {
+    padding: 10%, 10%, 10%, 10%;
 }
 
 .collapsed {
@@ -37,6 +37,7 @@
 }
 
 h1,
+h2.h2,
 h3,
 div.image,
 .btnDiv {

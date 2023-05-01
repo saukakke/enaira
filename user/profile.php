@@ -58,26 +58,115 @@
         </nav>
         <main class="container">
             <h1 class="h1">Profile</h1>
-            <div class="row">
-                <i class="fa fa-envelope" style="font-size: larger;"></i>
+            <form action="#" class="form" id="loginForm">
                 <div class="form-group">
-                    <label for="">Email</label>
-                    <p><a href="mailto:saukakke@gmail.com">saukakke@gmail.com</a></p>
+                    <label for="firstname" class="form-label">Choose Title:</label>
+                    <select name="user_type" id="select" required class="form-control
+                    input-medium"
+                    placeholder="Choose Title">
+                        <option value="">Choose Title</option>
+                        <option value="Chief">Chief</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Miss">Miss</option>
+                        <option value="">Choose Title</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                    </select>
                 </div>
-            </div>
 
-            <div class="row">
-                <i class="fa fa-home" style="font-size: larger;"></i>
                 <div class="form-group">
-                    <label for="">Address</label>
-                    <address>Hayin Dogo, Samaru, Zaria</address>
+                    <label for="firstname" class="form-label">First Name:</label>
+                    <input type="text" required class="form-control
+                        input-medium"
+                        placeholder="First Name" name="firstname">
                 </div>
-            </div>
 
-            <div class="row">
-                <i class="fa fa-phone" style="font-size: larger;"></i>
                 <div class="form-group">
-                    <label for="">Phone Number</label>
-                    <p><a href="tel:+2348130144920">08130144920</a></p>
+                    <label for="middlename" class="form-label">Middle Name:</label>
+                    <i class="optional">(Optional)</i>
+                    <input type="text" class="form-control
+                        input-medium"
+                        placeholder="Middle Name" name="middlename">
                 </div>
-            </div>
+
+                <div class="form-group">
+                    <label for="lastname" class="form-label">Last Name:</label>
+                    <input type="text" required class="form-control
+                        input-medium" placeholder="Last Name" name="lastname">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone" class="form-label">Phone Number:</label>
+                    <input type="number" required class="form-control
+                        input-medium" maxlength="11" minlength="11" placeholder="Phone Number" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="firstname" class="form-label">State of Origin:</label>
+                    <select name="state" id="select" required class="form-control
+                    input-medium"
+                    placeholder="State of Origin">
+                        <option value="">State of Origin</option>
+                        <option value="Chief">Chief</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Miss">Miss</option>
+                        <option value="">Choose Title</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="firstname" class="form-label">Local Government Area:</label>
+                    <select name="lga" id="select" required class="form-control
+                    input-medium"
+                    placeholder="Local Government Area">
+                        <option value="">Local Government Area</option>
+                        <option value="Chief">Chief</option>
+                        <option value="Doctor">Doctor</option>
+                        <option value="Miss">Miss</option>
+                        <option value="">Choose Title</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Mrs</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="nin" class="form-label">National Iddentification Number (NIN):</label>
+                    <input type="text" required class="form-control
+                        input-medium" placeholder="National Iddentification Number (NIN)" name="nin">
+                </div>
+
+                <div class="form-group">
+                    <label for="wallet" class="form-label">Wallet @alias:</label>
+                    <input type="text" required class="form-control
+                        input-medium" placeholder="Wallet @alias" name="wallet">
+                </div>
+
+                <div class="form-group">
+                    <label for="address" class="form-label">Current Address:</label>
+                    <textarea name="address" style="font-size: medium;" cols="5" rows="5" placeholder="Current Address"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="organization" class="form-label">Select Organization:</label>
+                    <select name="organization" id="select" required class="form-control
+                    input-medium"
+                    placeholder="Select Organization">
+                        <option value="">Select Organization</option>
+                        <option value="Chief">Chief</option>
+                        <option value="Ben Grace Agro Ltd">Ben Grace Agro Ltd</option>
+                        <option value="AMCIN">AMCIN</option>
+                        <option value="SUS Consultancy Services Ltd">SUS Consultancy Services Ltd</option>
+                        <option value="Binda International Farms">Binda International Farms</option>
+                        <option value="Wakili Communication Share Agent Network Limited">Wakili Communication Share Agent Network Limited</option>
+                        <option value="Powerline Technology Ltd">Powerline Technology Ltd</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <div class="btnDiv">
+                        <button class="btn btn-success">Update Profile</button>
+                    </div>
+                </div>
+            </form>

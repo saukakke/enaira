@@ -170,3 +170,5 @@
                     </div>
                 </div>
             </form>
+
+            <?php include_once 'footer.php' ?>

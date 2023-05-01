@@ -34,7 +34,7 @@
                 id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="ddashboard.php">
+                        <a class="nav-link" href="dashboard.php">
                             <i class="fa fa-home"></i> Dashboard
                         </a>
                     </li>

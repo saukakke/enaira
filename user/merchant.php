@@ -214,7 +214,7 @@
 
                 <div class="form-group">
                     <div class="btnDiv">
-                        <button class="btn btn-success">Register</button>
+                        <button class="btn btn-success">Create Wallet</button>
                     </div>
                 </div>
             </form>

@@ -55,6 +55,28 @@
     </nav>
     <main class="container">
         <h1 class="h1">Welcome Back</h1>
+        <div class="buttons" style="margin-bottom: 2%;">
+            <button class="btn btn-success" style="font-size: medium;">
+                Customer 
+                <div class="badge">
+                    0
+                </div>
+            </button>
+
+            <button class="btn btn-success" style="font-size: medium; margin-left: 2%;">
+                Merchant 
+                <div class="badge">
+                    0
+                </div>
+            </button>
+        </div>
+        <div class="jumbotron">
+            <div class="badge">
+                <i class="fa fa-info"></i>
+            </div>
+            <b> Agent Task:</b>
+            Onboarding users, activating users and training users on how to perform transactions using the eNaira wallet and USSD code.
+        </div>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6" style="margin-bottom: 5%;">
                 <div class="card" style="padding: 10%;">

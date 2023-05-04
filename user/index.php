@@ -171,7 +171,7 @@
                         input-medium" placeholder="Photo" name="photo">
                 </div>
 
-                <img src="../images/logo.png" class="image-responsive" alt="Photo" width="10%" height="10%">
+                <img src="../images/f.png" class="image-responsive" alt="Photo" width="10%" height="10%">
 
                 <div class="form-group">
                     <div class="btnDiv">

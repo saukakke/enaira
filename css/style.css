@@ -8,12 +8,6 @@ p.p {
     min-width: 100%;
 }
 
-div.badge {
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-}
-
 div.card {
     padding: 10%, 10%, 10%, 10%;
 }
@@ -86,4 +80,12 @@ div.forget {
 
 div.forget > a:hover {
     color: green;
+}
+
+table {
+    width: 100%;
+}
+
+#links {
+    font-size: 3rem;
 }

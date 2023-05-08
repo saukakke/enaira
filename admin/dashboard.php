@@ -25,6 +25,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
         <img src="../images/logo.png" class="image mr-auto image-responsive" alt="Elkanawi Schools" height="5%" width="5%">
+        <!--a href="#" class="navbar-brand mr-auto" style="font-size: medium;">Arewa Premier Ltd</a-->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,7 +38,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-user"></i> Agent
+                        <i class="fa fa-user"></i> Agents
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="agent.php">View Agents</a>

@@ -36,7 +36,7 @@
                 </li>
                 <li class="active nav-item">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa fa-user"></i> Agent
+                        <i class="fa fa-user"></i> Agents
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="agent.php">View Agents</a>

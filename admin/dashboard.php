@@ -58,7 +58,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../logout.php">
+                    <a class="nav-link" href="../login.php">
                         <i class="fa fa-sign-out"></i> Logout
                     </a>
                 </li>

@@ -67,7 +67,7 @@
     </nav>
     <main class="container">
         <h1 class="h1">Welcome Back</h1>
-        <div class="row">
+        <div class="row" style="text-align: center;">
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <a href="dashboard.php" style="font-size: medium; margin-bottom: 5%; padding: 10%;" class="btn btn-success">
                     <i class="fa fa-home fa-5x"></i>
@@ -80,7 +80,7 @@
                 <a href="agent.php" style="font-size: medium; margin-bottom: 5%; padding: 10%;" class="btn btn-success">
                     <i class="fa fa-users fa-5x"></i>
                     <br>
-                    Agents
+                    500+ Agents
                 </a>
             </div>
 
@@ -88,7 +88,7 @@
                 <a href="partners.php" style="font-size: medium; margin-bottom: 5%; padding: 10%;" class="btn btn-success">
                     <i class="fa fa-building fa-5x"></i>
                     <br>
-                    Partners
+                    500+ Partners
                 </a>
             </div>
 

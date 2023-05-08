@@ -41,12 +41,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.php">
-                        <i class="fa fa-phone"></i> About Us
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.php">
+                    <a class="nav-link" href="../login.php">
                         <i class="fa fa-sign-in"></i> Logout
                     </a>
                 </li>
@@ -136,4 +131,4 @@
         </div>
 
 
-        <?php include_once 'footer.php' ?>
+        <?php include_once '../footer.php'; ?>

@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../css/bootstrap-reboot.css">
     <link rel="stylesheet" href="../css/font-awesome.css">
-    <link rel="stylesheet" href="../fonts/css/all.css">
-    <link rel="stylesheet" href="../css/jquery.datatable.css">
+    <link rel="stylesheet" href="fonts/css/all.css">
     <link rel="stylesheet" href="../css/style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,7 +33,7 @@
                         <i class="fa fa-home"></i> Dashbaord
                     </a>
                 </li>
-                <li class="active nav-item">
+                <li class="nav-item">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                         <i class="fa fa-user"></i> Agent
                     </a>
@@ -42,7 +41,7 @@
                         <a class="dropdown-item" href="agent.php">View Agents</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="active nav-item">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                         <i class="fa fa-building"></i> Partners
                     </a>
@@ -65,49 +64,40 @@
         </div>
     </nav>
     <main class="container">
-        <h1 class="h1">List of all Agents</h1>
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <table class="table table-striped ">
-                <tr>
-                    <th>S/N</th>
-                    <th>Name</th>
-                    <th>Action</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Yasin Muhammed Tukur</td>
-                    <td>
-                        <a href="view_agent.php?id=" class="btn btn-success" style="font-size: medium;">View Details</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Yasin Muhammed Tukur</td>
-                    <td>
-                        <a href="view_agent.php?id=" class="btn btn-success" style="font-size: medium;">View Details</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Yasin Muhammed Tukur</td>
-                    <td>
-                        <a href="view_agent.php?id=" class="btn btn-success" style="font-size: medium;">View Details</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Yasin Muhammed Tukur</td>
-                    <td>
-                        <a href="view_agent.php?id=" class="btn btn-success" style="font-size: medium;">View Details</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Yasin Muhammed Tukur</td>
-                    <td>
-                        <a href="view_agent.php?id=" class="btn btn-success" style="font-size: medium;">View Details</a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <?php include_once '../footer.php'; ?>
+        <h1 class="h1">View/Update Partner Details</h1>
+            <div class="row">
+                <div class="col-sm-12 col-lg-12 col-md-12">
+                    <div class="form-group">
+                        <label for="">Partner Name:</label>
+                        <input type="text" class="form-control" value="Mytsone Tech" placeholder="Partner Name">
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 col-md-12">
+                    <div class="form-group">
+                        <label for="">Partner Email:</label>
+                        <input type="email" class="form-control" value="mytsonetech.network@gmail.com" placeholder="Partner Email">
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 col-md-12">
+                    <div class="form-group">
+                        <label for="">Partner Phone Number:</label>
+                        <input type="number" minlength="11" maxlength="11" value="08130144920" class="form-control" placeholder="Partner Phone Number">
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-12 col-md-12">
+                    <div class="form-group">
+                        <label for="">Partner Address:</label>
+                        <textarea name="address" cols="5" rows="5" placeholder="Partner Address"> ABU Zaria</textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="btnDiv">
+                    <button class="btn btn-success">Update Partner</button>
+                </div>
+            </div>
+    <?php include_once '../footer.php'; ?>

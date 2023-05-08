@@ -17,37 +17,54 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Arewa Premier Ltd</title>
+    <title>Elkanawi Schools</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        <img src="../images/logo.png" class="image mr-auto image-responsive" alt="Arewa Premier Ltd" height="5%" width="5%">
+        <img src="../images/logo.png" class="image mr-auto image-responsive" alt="Elkanawi Schools" height="5%" width="5%">
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
-                <li class="active nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="dashboard.php">
-                        <i class="fa fa-home"></i> Dashboard
+                        <i class="fa fa-home"></i> Dashbaord
+                    </a>
+                </li>
+                <li class="active nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-user"></i> Agent
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="agent.php">View Agents</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-building"></i> Partners
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="add_partners.php">Add Partner</a>
+                        <a class="dropdown-item" href="partners.php">View Partners</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="notify.php">
+                        <i class="fa fa-bell"></i> Notify
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="profile.php">
-                        <i class="fa fa-user"></i> Profile
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../login.php">
-                        <i class="fa fa-sign-in"></i> Logout
+                    <a class="nav-link" href="../logout.php">
+                        <i class="fa fa-sign-out"></i> Logout
                     </a>
                 </li>
             </ul>
         </div>
     </nav>
     <main class="container">
-        <h1 class="h1">Bronze</h1>
+        <h1 class="h1">View/Update Agent Details</h1>
         <form action="#" class="form" id="loginForm">
             <div class="form-group">
                 <label for="firstname" class="form-label">Choose Title:</label>
@@ -83,33 +100,13 @@
             </div>
 
             <div class="form-group">
-                <label for="dateofbirth" class="form-label">Date of Birth:</label>
-                <input type="date" required class="form-control
-                        input-medium" placeholder="Date of Birth" name="dateofbirth">
-            </div>
-
-            <div class="form-group">
                 <label for="phone" class="form-label">Phone Number:</label>
                 <input type="number" required class="form-control
                         input-medium" maxlength="11" minlength="11" placeholder="Phone Number" name="phone">
             </div>
 
             <div class="form-group">
-                <label for="country_origin" class="form-label">Country of Origin:</label>
-                <select name="country_origin" id="select" required class="form-control
-                    input-medium" placeholder="Country of Origin">
-                    <option value="">Country of Origin</option>
-                    <option value="Chief">Chief</option>
-                    <option value="Doctor">Doctor</option>
-                    <option value="Miss">Miss</option>
-                    <option value="Mr">Mr</option>
-                    <option value="Mrs">Mrs</option>
-                    <option value="Prof">Proffessor</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="state" class="form-label">State of Origin:</label>
+                <label for="firstname" class="form-label">State of Origin:</label>
                 <select name="state" id="select" required class="form-control
                     input-medium" placeholder="State of Origin">
                     <option value="">State of Origin</option>
@@ -123,7 +120,7 @@
             </div>
 
             <div class="form-group">
-                <label for="lga" class="form-label">Local Government Area:</label>
+                <label for="firstname" class="form-label">Local Government Area:</label>
                 <select name="lga" id="select" required class="form-control
                     input-medium" placeholder="Local Government Area">
                     <option value="">Local Government Area</option>
@@ -137,48 +134,48 @@
             </div>
 
             <div class="form-group">
-                <label for="c_residence" class="form-label">Country of Residence:</label>
-                <select name="c_residence" id="select" required class="form-control
-                    input-medium" placeholder="Country of Residence">
-                    <option value="">Country of Residence</option>
+                <label for="nin" class="form-label">National Iddentification Number (NIN):</label>
+                <input type="text" required class="form-control
+                        input-medium" placeholder="National Iddentification Number (NIN)" name="nin">
+            </div>
+
+            <div class="form-group">
+                <label for="wallet" class="form-label">Wallet @alias:</label>
+                <input type="text" required class="form-control
+                        input-medium" placeholder="Wallet @alias" name="wallet">
+            </div>
+
+            <div class="form-group">
+                <label for="wallet" class="form-label">Address:</label>
+                <textarea name="address" cols="5" rows="5" placeholder="Address"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="organization" class="form-label">Select Organization:</label>
+                <select name="organization" id="select" required class="form-control
+                    input-medium" placeholder="Select Organization">
+                    <option value="">Select Organization</option>
                     <option value="Chief">Chief</option>
-                    <option value="Doctor">Doctor</option>
-                    <option value="Miss">Miss</option>
-                    <option value="">Choose Title</option>
-                    <option value="Mr">Mr</option>
-                    <option value="Mrs">Mrs</option>
+                    <option value="Ben Grace Agro Ltd">Ben Grace Agro Ltd</option>
+                    <option value="AMCIN">AMCIN</option>
+                    <option value="SUS Consultancy Services Ltd">SUS Consultancy Services Ltd</option>
+                    <option value="Binda International Farms">Binda International Farms</option>
+                    <option value="Wakili Communication Share Agent Network Limited">Wakili Communication Share Agent Network Limited</option>
+                    <option value="Powerline Technology Ltd">Powerline Technology Ltd</option>
                 </select>
             </div>
 
             <div class="form-group">
-                <label for="c_state" class="form-label">State of Residence:</label>
-                <select name="c_state" id="select" required class="form-control
-                    input-medium" placeholder="State of Residence">
-                    <option value="">State of Residence</option>
-                    <option value="Chief">Chief</option>
-                    <option value="Doctor">Doctor</option>
-                    <option value="Miss">Miss</option>
-                    <option value="">Choose Title</option>
-                    <option value="Mr">Mr</option>
-                    <option value="Mrs">Mrs</option>
-                </select>
+                <label for="photo" class="form-label">Photo:</label>
+                <input type="file" required class="form-control
+                        input-medium" placeholder="Photo" name="photo">
             </div>
 
             <div class="form-group">
-                <label for="wallet" class="form-label">Contact Address:</label>
-                <textarea name="address" cols="5" rows="5" style="font-size: medium" placeholder="Contact Address"></textarea>
-            </div>
-
-            <div class="form-group">
-                <label for="password" class="form-label">Password:</label>
-                <input type="password" required class="form-control
-                        input-medium" placeholder="Password" name="password">
-            </div>
-
-            <div class="form-group">
-                <div class="btnDiv">
-                    <button class="btn btn-success">Create Wallet</button>
+                <div class="buttons" style="text-align: center;">
+                    <button class="btn btn-success" style="font-size: medium;">Activate</button>
+                    <button class="btn btn-danger" style="font-size: medium;">Deactivate</button>
                 </div>
             </div>
         </form>
-        <?php include_once '../footer.php'; ?>
+        <?php include_once '../footer.php' ?>

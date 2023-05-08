@@ -44,7 +44,7 @@ div.image,
     text-align: center;
 }
 
-.btnDiv>a {
+.btnDiv>a#register {
     border: 1px, #dddddd;
     background-color: #dddddd;
     margin-top: 3%;
@@ -88,4 +88,28 @@ table {
 
 #links {
     font-size: 3rem;
+}
+
+textarea {
+    resize: none;
+}
+
+main {
+    min-height: 500px;
+}
+
+li > ul.dropdown:hover {
+    display: block;
+}
+
+li > ul.dropdown {
+    display: none;
+}
+
+div > div.buttons {
+    text-align: center;
+}
+
+div > div.buttons > button {
+    font-size: medium;
 }

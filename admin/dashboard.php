@@ -36,14 +36,21 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="agent.php">
-                        <i class="fa fa-user"></i> Agents
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-user"></i> Agent
                     </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="agent.php">View Agents</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="partners.php">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                         <i class="fa fa-building"></i> Partners
                     </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="add_partners.php">Add Partner</a>
+                        <a class="dropdown-item" href="partners.php">View Partners</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="notify.php">

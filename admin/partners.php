@@ -33,15 +33,22 @@
                         <i class="fa fa-home"></i> Dashbaord
                     </a>
                 </li>
-                <li class="active nav-item">
-                    <a class="nav-link" href="agent.php">
-                        <i class="fa fa-user"></i> Agents
-                    </a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="partners.php">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-user"></i> Agent
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="agent.php">View Agents</a>
+                    </div>
+                </li>
+                <li class="active nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                         <i class="fa fa-building"></i> Partners
                     </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="add_partners.php">Add Partner</a>
+                        <a class="dropdown-item" href="partners.php">View Partners</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="notify.php">
@@ -56,6 +63,29 @@
             </ul>
         </div>
     </nav>
-    <main class="container" style="min-width: 1000px;">
-
-    <?php include_once '../footer.php'; ?>
+    <main class="container">
+        <h1 class="h1">Our Partners</h1>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <table class="table table-striped table-responsive">
+                <tr>
+                    <th>S/N</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Yasin Muhammed Tukur</td>
+                    <td>
+                        <a href="view_partners.php?id=" class="btn btn-success" style="font-size: medium;">View Details</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Abdullahi Nasir</td>
+                    <td>
+                        <a href="view_partners.php?id=" class="btn btn-success" style="font-size: medium;">View Details</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <?php include_once '../footer.php'; ?>

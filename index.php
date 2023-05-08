@@ -54,7 +54,6 @@
     <main class="container">
         <h1 class="h1">Welcome Message</h1>
         <div class="jumbotron">
-            
             <p style="text-align: justify;">
                 <img src="images/logo.png" alt="Logo" title="Logo" width="40%" height="40%" class="image-responsive" style="float: left; padding-right: 1%;">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum accusantium in ad ducimus minus dolores aut commodi eligendi quidem ut, facilis, quos fugit reprehenderit amet voluptas ipsum itaque repellat mollitia?
@@ -62,6 +61,14 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptates delectus officia quam tempora! Perspiciatis voluptatibus, obcaecati praesentium ex, nam ratione inventore qui, placeat eos laboriosam labore error vel nihil!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias animi est cupiditate maiores voluptatibus rerum obcaecati nisi nobis consectetur beatae magnam non, repellat officiis! Maiores quaerat adipisci eos eaque!
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum asperiores, animi expedita nulla sunt placeat, magni iusto eius consectetur reiciendis ullam. Beatae id amet reiciendis pariatur, explicabo quis tempora modi.
+            </p>
+        </div>
+
+        <div class="jumbotron">
+            <p style="text-align: justify;">
+                <img src="images/logo.png" alt="Logo" title="Logo" width="40%" height="40%" class="image-responsive" style="float: right; padding-right: 1%;">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum accusantium in ad ducimus minus dolores aut commodi eligendi quidem ut, facilis, quos fugit reprehenderit amet voluptas ipsum itaque repellat mollitia?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellat voluptate minus consectetur laudantium tempora dicta inventore natus quae laboriosam sint ducimus, quisquam omnis quos aperiam! Asperiores saepe voluptate possimus.
             </p>
         </div>
         <?php include_once 'footer.php' ?>

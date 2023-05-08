@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse"
                 id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="active nav-item">
                         <a class="nav-link" href="dashboard.php">
                             <i class="fa fa-home"></i> Dashboard
                         </a>
@@ -44,12 +44,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">
-                            <i class="fa fa-phone"></i> About Us
-                        </a>
-                    </li>
-                    <li class="active nav-item">
-                        <a class="nav-link" href="login.php">
+                        <a class="nav-link" href="../login.php">
                             <i class="fa fa-sign-in"></i> Logout
                         </a>
                     </li>
@@ -218,4 +213,4 @@
                     </div>
                 </div>
             </form>
-            <?php include_once 'footer.php' ?>
+            <?php include_once '../footer.php'; ?>

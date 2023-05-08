@@ -43,13 +43,8 @@
                             <i class="fa fa-user"></i> Profile
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.php">
-                            <i class="fa fa-phone"></i> About Us
-                        </a>
-                    </li>
                     <li class="active nav-item">
-                        <a class="nav-link" href="login.php">
+                        <a class="nav-link" href="../login.php">
                             <i class="fa fa-sign-in"></i> Logout
                         </a>
                     </li>
@@ -175,8 +170,8 @@
 
                 <div class="form-group">
                     <div class="btnDiv">
-                        <button class="btn btn-success">Continue</button>
+                        <a href="dashboard.php" class="btn btn-success">Continue</a>
                     </div>
                 </div>
             </form>
-            <?php include_once 'footer.php' ?>
+            <?php include_once '../footer.php'; ?>

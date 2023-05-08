@@ -76,13 +76,13 @@
 
             <div class="form-group">
                 <div class="btnDiv">
-                    <button class="btn btn-success">Sign In</button>
+                    <a href="user/index.php"  class="btn btn-success">Sign In</a>
                 </div>
             </div>
 
             <div class="form-group">
                 <div class="btnDiv">
-                    <a href="register.php" class="btn btn-default">Create Account</a>
+                    <a href="register.php" id="register" class="btn btn-default">Create Account</a>
                 </div>
             </div>
         </form>
